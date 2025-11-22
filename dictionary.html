@@ -2,77 +2,46 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Ty∂a Dictionary</title>
   <link rel="stylesheet" href="style.css" />
   <style>
-    body {
-      font-family: Arial, sans-serif;
-      background: #f9f9f9;
-      margin: 0;
-      padding: 0;
+    /* Basic styling for table */
+    #dictionary-container {
+      max-width: 1000px;
+      margin: 2rem auto;
+      padding: 0 1rem;
     }
 
-    nav {
-      background-color: #729655;
-      padding: 10px 20px;
-    }
-
-    nav ul {
-      list-style: none;
-      display: flex;
-      margin: 0;
-      padding: 0;
-    }
-
-    nav li {
-      margin-right: 20px;
-    }
-
-    nav a {
-      text-decoration: none;
-      color: white;
-      font-weight: bold;
-    }
-
-    nav a.active {
-      text-decoration: underline;
-    }
-
-    .container {
-      max-width: 900px;
-      margin: 40px auto;
-      padding: 0 20px;
-    }
-
-    .word-table {
+    table {
       width: 100%;
       border-collapse: collapse;
-      margin-bottom: 10px;
     }
 
-    .word-table th, .word-table td {
-      border: 1px solid #ccc;
-      padding: 10px;
+    th, td {
+      padding: 0.75rem;
       text-align: left;
+      border-bottom: 1px solid #ccc;
     }
 
-    .word-table th {
-      background: #e0e0e0;
+    th {
+      background-color: #729655;
+      color: white;
     }
 
-    .expandable {
+    tr.expandable {
       cursor: pointer;
-      background: #d6efd6;
+      background-color: #f0f0f0;
     }
 
-    .variations {
+    tr.details {
       display: none;
-      background: #f0f8f0;
+      background-color: #e8e8e8;
     }
 
-    .variations td {
-      border-top: none;
+    tr.details td {
+      padding-left: 2rem;
+      font-style: italic;
     }
   </style>
 </head>
@@ -89,78 +58,59 @@
     </ul>
   </nav>
 
-  <div class="container">
-    <h1>Ty∂a Dictionary</h1>
-    <div id="dictionary"></div>
+  <h1 style="text-align:center; margin-top: 2rem;">Ty∂a Dictionary</h1>
+
+  <!-- DICTIONARY TABLE -->
+  <div id="dictionary-container">
+    <p>Loading dictionary...</p>
   </div>
 
   <script>
-    async function loadDictionary() {
-      try {
-        const response = await fetch('tyda-dictionary.json');
-        const words = await response.json();
-        const container = document.getElementById('dictionary');
+    // Fetch dictionary JSON (empty for now, you can fill tyda-dictionary.json later)
+    fetch('tyda-dictionary.json')
+      .then(res => res.json())
+      .then(data => {
+        const container = document.getElementById('dictionary-container');
+        container.innerHTML = ''; // Clear "loading..." text
 
-        words.forEach(wordObj => {
-          // Main row
-          const table = document.createElement('table');
-          table.classList.add('word-table');
+        const table = document.createElement('table');
 
-          const thead = document.createElement('thead');
-          const headerRow = document.createElement('tr');
-          const headers = ['Word', 'Pronunciation', 'Meaning'];
-          headers.forEach(text => {
-            const th = document.createElement('th');
-            th.textContent = text;
-            headerRow.appendChild(th);
-          });
-          thead.appendChild(headerRow);
-          table.appendChild(thead);
+        // Table header
+        const header = document.createElement('tr');
+        ['Word', 'Pronunciation', 'Meaning'].forEach(text => {
+          const th = document.createElement('th');
+          th.textContent = text;
+          header.appendChild(th);
+        });
+        table.appendChild(header);
 
-          const tbody = document.createElement('tbody');
-          const mainRow = document.createElement('tr');
-          mainRow.classList.add('expandable');
+        // Populate rows
+        data.forEach(entry => {
+          // Main word row
+          const row = document.createElement('tr');
+          row.classList.add('expandable');
+          row.innerHTML = `<td>${entry.word}</td><td>${entry.pronunciation}</td><td>${entry.meaning}</td>`;
+          table.appendChild(row);
 
-          const wordTd = document.createElement('td');
-          wordTd.textContent = wordObj.word;
-          mainRow.appendChild(wordTd);
+          // Variants / suffixes row
+          if (entry.variants && entry.variants.length > 0) {
+            const detailsRow = document.createElement('tr');
+            detailsRow.classList.add('details');
+            detailsRow.innerHTML = `<td colspan="3">${entry.variants.join(', ')}</td>`;
+            table.appendChild(detailsRow);
 
-          const pronTd = document.createElement('td');
-          pronTd.textContent = wordObj.pronunciation;
-          mainRow.appendChild(pronTd);
-
-          const meaningTd = document.createElement('td');
-          meaningTd.textContent = wordObj.meaning;
-          mainRow.appendChild(meaningTd);
-
-          tbody.appendChild(mainRow);
-
-          // Variations row (hidden by default)
-          const varRow = document.createElement('tr');
-          varRow.classList.add('variations');
-
-          const varTd = document.createElement('td');
-          varTd.setAttribute('colspan', '3');
-          varTd.textContent = 'Suffixes / Variations will go here';
-          varRow.appendChild(varTd);
-
-          tbody.appendChild(varRow);
-
-          table.appendChild(tbody);
-          container.appendChild(table);
-
-          // Toggle variations on click
-          mainRow.addEventListener('click', () => {
-            varRow.style.display = varRow.style.display === 'table-row' ? 'none' : 'table-row';
-          });
+            row.addEventListener('click', () => {
+              detailsRow.style.display = detailsRow.style.display === 'table-row' ? 'none' : 'table-row';
+            });
+          }
         });
 
-      } catch (error) {
-        console.error('Error loading dictionary:', error);
-      }
-    }
-
-    loadDictionary();
+        container.appendChild(table);
+      })
+      .catch(err => {
+        document.getElementById('dictionary-container').innerHTML = `<p>Error loading dictionary: ${err}</p>`;
+        console.error(err);
+      });
   </script>
 
 </body>
