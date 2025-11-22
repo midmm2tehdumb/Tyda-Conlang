@@ -1,78 +1,376 @@
-Word	Pronounciation	Meaning
-vös	voes	Hello / Greeting
-mi	mee	I / me
-vu	voo	you (singular)
-se	say	he / she / they
-mis	mees	we
-ses	sess	they (plural)
-i	ee	present particle
-tat	tat	the
-task	t-auh-sk	big / large
-skat	sk-auh-t	small/tiny
-a	ah	past particle
-u	oo	future particle
-ma	mah	question particle
-la	lah	suggestion particle
-tap	tap	eat
-ßak	shak	move / go
-sax	sahx	look / see
-vo	voh	speak / tell
-kax	kaks	want / need
-vix	vix	have / possess
-pæ	pah	tree / plant
-möx	mok	animal
-æx	ax	water
-pö	poe	fire
-xö	xoe	food
-vö	voe	house / building
-su	sue	sky
-xa	za	wind
-ix	icks	rain
-tix	tiks	time
-tya	tee-ah	sun
-lun	loon	light
-gro	groh	big
-smi	smee	small
-kta	kta	carry / hold
-saxö	sahx-oe	rest / sleep
-ixt	ickst	thought / idea
-pum	pum	stone / mineral
-vuk	vook	path / road
-ßix	shiks	pleasure / liking
-xap	xap	tool / device
-æpx	ax-pah	plant type
-kox	kohx	vehicle / transport
-töa	toe-a	cockpit / control space
-väs	vas	sound / voice
-plö	ploe	flying object / aircraft
-sät	sat	seat / chair
-enj	exj	engine / power source
-wöx	woex	wing
-alt	alt	height / altitude
-flö	flow	flight / movement
-turb	turb	turbulence
-sök	sew-k	sky object / cloud
-ßöx	so-ks	river / waterbody
-pök	poek	food source / edible
-xum	xoom	companion / friend
-tixu	tiks-oo	time segment
-vuß	voosh	future / intention
-saxæ	sahx-a	view / vision
-kixu	kiks-oo	day / daytime
-vöx	voex	structure / building
-tkö	tkoh	air current / wind flow
-xaö	za-oe-	wind gust
-tux	tooks	unit / single item
-ßik	shik	opposite / negative
-ixu	icks-oo	precipitation / rain event
-kaxæ	kaks-a	desire / need (abstract)
-pööks	pokes	happy / joy
-ßuß	shoosh	sad / sorrow
-tuxö	tooks-oe	angry / frustration
-ßept	saep-t	afraid / fear
-vasö	vas-oe	love / affection
-sup	suhp	surprised / shock
-ikx	icks	calm / peaceful
-öxa	oe-xa	disgust / dislike
-ßip	ship	envy / jealousy
-uxi	oo-xee	pride / confident
+[
+  {
+    "word": "vös",
+    "pronunciation": "voes",
+    "meaning": "Hello / Greeting",
+    "variants": []
+  },
+  {
+    "word": "mi",
+    "pronunciation": "mee",
+    "meaning": "I / me",
+    "variants": []
+  },
+  {
+    "word": "vu",
+    "pronunciation": "voo",
+    "meaning": "you (singular)",
+    "variants": []
+  },
+  {
+    "word": "se",
+    "pronunciation": "say",
+    "meaning": "he / she / they",
+    "variants": []
+  },
+  {
+    "word": "mis",
+    "pronunciation": "mees",
+    "meaning": "we",
+    "variants": []
+  },
+  {
+    "word": "ses",
+    "pronunciation": "sess",
+    "meaning": "they (plural)",
+    "variants": []
+  },
+  {
+    "word": "i",
+    "pronunciation": "ee",
+    "meaning": "present particle",
+    "variants": []
+  },
+  {
+    "word": "tat",
+    "pronunciation": "tat",
+    "meaning": "the",
+    "variants": []
+  },
+  {
+    "word": "task",
+    "pronunciation": "t-auh-sk",
+    "meaning": "big / large",
+    "variants": []
+  },
+  {
+    "word": "skat",
+    "pronunciation": "sk-auh-t",
+    "meaning": "small / tiny",
+    "variants": []
+  },
+  {
+    "word": "a",
+    "pronunciation": "ah",
+    "meaning": "past particle",
+    "variants": []
+  },
+  {
+    "word": "u",
+    "pronunciation": "oo",
+    "meaning": "future particle",
+    "variants": []
+  },
+  {
+    "word": "ma",
+    "pronunciation": "mah",
+    "meaning": "question particle",
+    "variants": []
+  },
+  {
+    "word": "la",
+    "pronunciation": "lah",
+    "meaning": "suggestion particle",
+    "variants": []
+  },
+  {
+    "word": "tap",
+    "pronunciation": "tap",
+    "meaning": "eat",
+    "variants": [
+      {"form": "tapa", "pronunciation": "tap-ah", "meaning": "ate / past"},
+      {"form": "tapu", "pronunciation": "tap-oo", "meaning": "will eat / future"},
+      {"form": "tapix", "pronunciation": "tap-icks", "meaning": "eating / progressive"}
+    ]
+  },
+  {
+    "word": "ßak",
+    "pronunciation": "shak",
+    "meaning": "move / go",
+    "variants": []
+  },
+  {
+    "word": "sax",
+    "pronunciation": "sahx",
+    "meaning": "look / see",
+    "variants": [
+      {"form": "saxö", "pronunciation": "sahx-oe", "meaning": "rest / sleep"},
+      {"form": "saxæ", "pronunciation": "sahx-a", "meaning": "view / vision"}
+    ]
+  },
+  {
+    "word": "vo",
+    "pronunciation": "voh",
+    "meaning": "speak / tell",
+    "variants": []
+  },
+  {
+    "word": "kax",
+    "pronunciation": "kaks",
+    "meaning": "want / need",
+    "variants": [
+      {"form": "kaxæ", "pronunciation": "kaks-a", "meaning": "desire / need (abstract)"}
+    ]
+  },
+  {
+    "word": "vix",
+    "pronunciation": "vix",
+    "meaning": "have / possess",
+    "variants": []
+  },
+  {
+    "word": "pæ",
+    "pronunciation": "pah",
+    "meaning": "tree / plant",
+    "variants": [
+      {"form": "æpx", "pronunciation": "ax-pah", "meaning": "plant type"}
+    ]
+  },
+  {
+    "word": "möx",
+    "pronunciation": "mok",
+    "meaning": "animal",
+    "variants": [
+      {"form": "mox", "pronunciation": "mok-pet", "meaning": "domestic / pet animal"}
+    ]
+  },
+  {
+    "word": "æx",
+    "pronunciation": "ax",
+    "meaning": "water",
+    "variants": []
+  },
+  {
+    "word": "pö",
+    "pronunciation": "poe",
+    "meaning": "fire",
+    "variants": []
+  },
+  {
+    "word": "xö",
+    "pronunciation": "xoe",
+    "meaning": "food",
+    "variants": [
+      {"form": "pök", "pronunciation": "poek", "meaning": "food source / edible"}
+    ]
+  },
+  {
+    "word": "vö",
+    "pronunciation": "voe",
+    "meaning": "house / building",
+    "variants": [
+      {"form": "vöx", "pronunciation": "voex", "meaning": "structure / building"}
+    ]
+  },
+  {
+    "word": "su",
+    "pronunciation": "sue",
+    "meaning": "sky",
+    "variants": [
+      {"form": "söa", "pronunciation": "soe-ah", "meaning": "cloud / sky object"}
+    ]
+  },
+  {
+    "word": "xa",
+    "pronunciation": "za",
+    "meaning": "wind",
+    "variants": [
+      {"form": "tkö", "pronunciation": "tkoh", "meaning": "air current / wind flow"},
+      {"form": "xaö", "pronunciation": "za-oe", "meaning": "wind gust / air flow"}
+    ]
+  },
+  {
+    "word": "ix",
+    "pronunciation": "icks",
+    "meaning": "rain",
+    "variants": [
+      {"form": "ixu", "pronunciation": "icks-oo", "meaning": "precipitation / rain event"}
+    ]
+  },
+  {
+    "word": "tix",
+    "pronunciation": "tiks",
+    "meaning": "time",
+    "variants": [
+      {"form": "tixu", "pronunciation": "tiks-oo", "meaning": "time segment"}
+    ]
+  },
+  {
+    "word": "tya",
+    "pronunciation": "tee-ah",
+    "meaning": "sun",
+    "variants": []
+  },
+  {
+    "word": "lun",
+    "pronunciation": "loon",
+    "meaning": "light",
+    "variants": []
+  },
+  {
+    "word": "gro",
+    "pronunciation": "groh",
+    "meaning": "big",
+    "variants": []
+  },
+  {
+    "word": "smi",
+    "pronunciation": "smee",
+    "meaning": "small",
+    "variants": []
+  },
+  {
+    "word": "kta",
+    "pronunciation": "kta",
+    "meaning": "carry / hold",
+    "variants": []
+  },
+  {
+    "word": "väs",
+    "pronunciation": "vas",
+    "meaning": "sound / voice",
+    "variants": []
+  },
+  {
+    "word": "plö",
+    "pronunciation": "ploe",
+    "meaning": "flying object / aircraft",
+    "variants": []
+  },
+  {
+    "word": "sät",
+    "pronunciation": "sat",
+    "meaning": "seat / chair",
+    "variants": []
+  },
+  {
+    "word": "enj",
+    "pronunciation": "exj",
+    "meaning": "engine / power source",
+    "variants": []
+  },
+  {
+    "word": "wöx",
+    "pronunciation": "woex",
+    "meaning": "wing",
+    "variants": []
+  },
+  {
+    "word": "alt",
+    "pronunciation": "alt",
+    "meaning": "height / altitude",
+    "variants": []
+  },
+  {
+    "word": "flö",
+    "pronunciation": "flow",
+    "meaning": "flight / movement",
+    "variants": []
+  },
+  {
+    "word": "turb",
+    "pronunciation": "turb",
+    "meaning": "turbulence",
+    "variants": []
+  },
+  {
+    "word": "sök",
+    "pronunciation": "sew-k",
+    "meaning": "sky object / cloud",
+    "variants": []
+  },
+  {
+    "word": "ßöx",
+    "pronunciation": "so-ks",
+    "meaning": "river / waterbody",
+    "variants": []
+  },
+  {
+    "word": "xum",
+    "pronunciation": "xoom",
+    "meaning": "companion / friend",
+    "variants": []
+  },
+  {
+    "word": "vuß",
+    "pronunciation": "voosh",
+    "meaning": "future / intention",
+    "variants": []
+  },
+  {
+    "word": "kixu",
+    "pronunciation": "kiks-oo",
+    "meaning": "day / daytime",
+    "variants": []
+  },
+  {
+    "word": "pööks",
+    "pronunciation": "pokes",
+    "meaning": "happy / joy",
+    "variants": []
+  },
+  {
+    "word": "ßuß",
+    "pronunciation": "shoosh",
+    "meaning": "sad / sorrow",
+    "variants": []
+  },
+  {
+    "word": "tuxö",
+    "pronunciation": "tooks-oe",
+    "meaning": "angry / frustration",
+    "variants": []
+  },
+  {
+    "word": "ßept",
+    "pronunciation": "saep-t",
+    "meaning": "afraid / fear",
+    "variants": []
+  },
+  {
+    "word": "vasö",
+    "pronunciation": "vas-oe",
+    "meaning": "love / affection",
+    "variants": []
+  },
+  {
+    "word": "sup",
+    "pronunciation": "suhp",
+    "meaning": "surprised / shock",
+    "variants": []
+  },
+  {
+    "word": "ikx",
+    "pronunciation": "icks",
+    "meaning": "calm / peaceful",
+    "variants": []
+  },
+  {
+    "word": "öxa",
+    "pronunciation": "oe-xa",
+    "meaning": "disgust / dislike",
+    "variants": []
+  },
+  {
+    "word": "ßip",
+    "pronunciation": "ship",
+    "meaning": "envy / jealousy",
+    "variants": []
+  },
+  {
+    "word": "uxi",
+    "pronunciation": "oo-xee",
+    "meaning": "pride / confident",
+    "variants": []
+  }
+]
