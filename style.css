@@ -1,106 +1,120 @@
 /* GLOBAL RESET */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html,body { height: 100%; }
 
 /* BODY */
 body {
-  font-family: Arial, sans-serif;
-  background: #ffffff;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
   color: #222;
+  background: #fff;
 }
 
-/* NAVIGATION */
+/* NAV */
 nav {
   background: #729655;
   padding: 12px 0;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 40;
 }
-
 nav ul {
   list-style: none;
   display: flex;
   justify-content: center;
-  gap: 30px;
+  gap: 28px;
 }
-
 nav a {
-  color: #ffffff;
+  color: #fff;
   text-decoration: none;
-  font-size: 1.1rem;
-  font-weight: 500;
-  transition: 0.2s;
+  font-weight: 600;
+  font-size: 1rem;
 }
-
-nav a:hover,
-nav a.active {
-  text-decoration: underline;
-}
+nav a.active,
+nav a:hover { opacity: 0.9; text-decoration: underline; }
 
 /* HERO */
 .hero {
+  /* hero.jpg should be 1000x700 (your provided file) */
   background: url("hero.jpg") center/cover no-repeat;
-  height: 350px;
-  width: 100%;
+  height: 420px; /* tall enough to look nice on desktop */
+  margin-top: 48px; /* leave room for fixed nav */
 }
 
-/* INTRO BUTTON */
+/* INTRO (centered button) */
 .intro {
   display: flex;
   justify-content: center;
-  padding: 40px 0;
+  align-items: center;
+  padding: 60px 20px;
 }
 
+/* BUTTON - same green as nav */
 .popup-btn {
   background: #729655;
-  color: #ffffff;
-  padding: 18px 45px;
-  font-size: 1.3rem;
+  color: #fff;
   border: none;
-  border-radius: 8px;
+  padding: 18px 44px;
+  font-size: 1.25rem;
+  border-radius: 10px;
   cursor: pointer;
-  transition: 0.2s;
+  box-shadow: 0 6px 18px rgba(114,150,85,0.18);
+  transition: transform .12s ease, box-shadow .12s ease, background .12s ease;
 }
+.popup-btn:hover { transform: translateY(-3px); box-shadow: 0 10px 26px rgba(114,150,85,0.2); }
+.popup-btn:active { transform: translateY(-1px); }
 
-.popup-btn:hover {
-  background: #5c7c47;
-}
-
-/* POPUP OVERLAY */
+/* OVERLAY */
 .popup-overlay {
-  display: none;
+  display: none;            /* toggled with JS */
   position: fixed;
   inset: 0;
-  background: rgba(0,0,0,0.65);
-  backdrop-filter: blur(6px);
+  background: rgba(0,0,0,0.64);
+  backdrop-filter: blur(5px);
   justify-content: center;
   align-items: center;
   z-index: 999;
+  padding: 24px;
 }
 
 /* POPUP BOX */
 .popup-box {
-  background: white;
-  padding: 25px 30px;
-  max-width: 550px;
-  width: 85%;
+  position: relative;
+  width: 100%;
+  max-width: 720px;
+  background: #fff;
   border-radius: 12px;
-  text-align: center;
-  animation: popIn 0.2s ease-out;
+  padding: 26px 28px;
+  box-shadow: 0 20px 60px rgba(0,0,0,0.25);
+  text-align: left;
+  animation: popIn .18s ease-out;
 }
+.popup-box h2 { margin-bottom: 10px; font-size: 1.5rem; color: #111; }
+.popup-box p { line-height: 1.6; color: #333; }
 
-.popup-box h2 {
-  margin-bottom: 10px;
+/* CLOSE BUTTON (X) */
+.popup-close {
+  position: absolute;
+  right: 12px;
+  top: 10px;
+  background: transparent;
+  border: none;
+  font-size: 1.6rem;
+  color: #666;
+  cursor: pointer;
+  padding: 6px 10px;
 }
+.popup-close:hover { color: #111; }
 
-.popup-box p {
-  font-size: 1.05rem;
-  line-height: 1.45rem;
-}
-
-/* ANIMATION */
+/* POP IN ANIMATION */
 @keyframes popIn {
-  0% { transform: scale(0.92); opacity: 0; }
-  100% { transform: scale(1); opacity: 1; }
+  from { transform: translateY(8px) scale(.985); opacity: 0; }
+  to   { transform: translateY(0) scale(1); opacity: 1; }
+}
+
+/* Responsive tweaks */
+@media (max-width: 560px) {
+  .popup-btn { padding: 14px 22px; font-size: 1.05rem; }
+  .hero { height: 320px; }
+  .popup-box { padding: 18px; }
 }
