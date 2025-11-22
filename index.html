@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Ty∂a Language</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
@@ -19,46 +19,63 @@
     </ul>
   </nav>
 
-  <!-- HERO SECTION -->
-  <header class="hero"></header>
+  <!-- HERO -->
+  <header class="hero" role="img" aria-label="Tyda hero image"></header>
 
-  <!-- INTRO BUTTON -->
+  <!-- CENTERED BUTTON -->
   <section class="intro">
-    <button id="learnMoreBtn" class="popup-btn">
+    <button id="learnMoreBtn" class="popup-btn" aria-haspopup="dialog" aria-controls="popupOverlay">
       What is Ty∂a?
     </button>
   </section>
 
-  <!-- POPUP MODAL -->
-  <div id="popupOverlay" class="popup-overlay">
-    <div class="popup-box">
+  <!-- POPUP OVERLAY -->
+  <div id="popupOverlay" class="popup-overlay" role="dialog" aria-modal="true" aria-hidden="true">
+    <div class="popup-box" role="document">
+      <button class="popup-close" id="popupClose" aria-label="Close popup">&times;</button>
       <h2>About Ty∂a</h2>
       <p>
-        Ty∂a is a constructed language made for creative expression and worldbuilding.
-        It features its own vocabulary, particles, grammar, and writing system.
-        This site documents the language and its development. </p>
-      <p> Change Logs</p>
-      <p> Nov 22, 2025: Creation of Ty∂a with alphabet, rules, website, and basic words.</p>
+        Ty∂a is a playful constructed-language project. It experiments with a unique alphabet,
+        concise grammar particles, and an evolving dictionary. This site catalogs words,
+        grammar notes, and sample sentences as the language grows.
+      </p>
     </div>
   </div>
 
-  <!-- SCRIPT -->
   <script>
-    const popup = document.getElementById("popupOverlay");
-    const btn = document.getElementById("learnMoreBtn");
+    (function () {
+      const btn = document.getElementById('learnMoreBtn');
+      const overlay = document.getElementById('popupOverlay');
+      const closeBtn = document.getElementById('popupClose');
 
-    // Open popup
-    btn.addEventListener("click", () => {
-      popup.style.display = "flex";
-    });
-
-    // Close when clicking outside popup
-    popup.addEventListener("click", (e) => {
-      if (e.target === popup) {
-        popup.style.display = "none";
+      function openPopup() {
+        overlay.style.display = 'flex';
+        overlay.setAttribute('aria-hidden', 'false');
+        document.body.style.overflow = 'hidden'; // prevent background scroll
+        // focus first focusable element
+        closeBtn.focus();
       }
-    });
-  </script>
 
+      function closePopup() {
+        overlay.style.display = 'none';
+        overlay.setAttribute('aria-hidden', 'true');
+        document.body.style.overflow = ''; // restore scrolling
+        btn.focus();
+      }
+
+      btn.addEventListener('click', openPopup);
+      closeBtn.addEventListener('click', closePopup);
+
+      // close when clicking outside the popup-box
+      overlay.addEventListener('click', (e) => {
+        if (e.target === overlay) closePopup();
+      });
+
+      // close on ESC
+      document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape' && overlay.style.display === 'flex') closePopup();
+      });
+    })();
+  </script>
 </body>
 </html>
