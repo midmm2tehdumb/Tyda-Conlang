@@ -6,7 +6,6 @@
   <title>Ty∂a Dictionary</title>
   <link rel="stylesheet" href="style.css" />
   <style>
-    /* Basic styling for table */
     #dictionary-container {
       max-width: 1000px;
       margin: 2rem auto;
@@ -60,18 +59,16 @@
 
   <h1 style="text-align:center; margin-top: 2rem;">Ty∂a Dictionary</h1>
 
-  <!-- DICTIONARY TABLE -->
   <div id="dictionary-container">
     <p>Loading dictionary...</p>
   </div>
 
   <script>
-    // Fetch dictionary JSON (empty for now, you can fill tyda-dictionary.json later)
     fetch('tyda-dictionary.json')
       .then(res => res.json())
       .then(data => {
         const container = document.getElementById('dictionary-container');
-        container.innerHTML = ''; // Clear "loading..." text
+        container.innerHTML = '';
 
         const table = document.createElement('table');
 
@@ -84,19 +81,18 @@
         });
         table.appendChild(header);
 
-        // Populate rows
         data.forEach(entry => {
-          // Main word row
           const row = document.createElement('tr');
           row.classList.add('expandable');
           row.innerHTML = `<td>${entry.word}</td><td>${entry.pronunciation}</td><td>${entry.meaning}</td>`;
           table.appendChild(row);
 
-          // Variants / suffixes row
           if (entry.variants && entry.variants.length > 0) {
             const detailsRow = document.createElement('tr');
             detailsRow.classList.add('details');
-            detailsRow.innerHTML = `<td colspan="3">${entry.variants.join(', ')}</td>`;
+            detailsRow.innerHTML = `<td colspan="3">
+              ${entry.variants.map(v => `${v.form} (${v.pronunciation}) - ${v.meaning}`).join('<br>')}
+            </td>`;
             table.appendChild(detailsRow);
 
             row.addEventListener('click', () => {
