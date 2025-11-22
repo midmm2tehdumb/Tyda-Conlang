@@ -40,6 +40,23 @@
   </div>
 </div>
 
+  <script>
+  const popup = document.getElementById("popupOverlay");
+  const btn = document.getElementById("learnMoreBtn");
+
+  // Open popup
+  btn.addEventListener("click", () => {
+    popup.style.display = "flex";
+  });
+
+  // Close popup when clicking outside the box
+  popup.addEventListener("click", (e) => {
+    if (e.target === popup) {
+      popup.style.display = "none";
+    }
+  });
+</script>
+
 
 </body>
 </html>
