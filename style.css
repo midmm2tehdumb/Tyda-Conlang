@@ -38,13 +38,7 @@ nav a:hover {
   display: flex;
   align-items: center;
   justify-content: center;
-}
 
-.hero-content {
-  background: rgba(0, 0, 0, 0.45);
-  padding: 20px 40px;
-  border-radius: 6px;
-  text-align: center;
 }
 
 .hero h1 {
