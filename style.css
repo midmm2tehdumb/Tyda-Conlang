@@ -1,0 +1,59 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+/* NAVIGATION BAR */
+nav {
+  width: 100%;
+  background: #729655;
+  padding: 12px 0;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  list-style: none;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.2s;
+}
+
+nav a:hover {
+  opacity: 0.8;
+}
+
+/* HERO SECTION */
+.hero {
+  height: 100vh;
+  background: url("hero.jpg") center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-content {
+  background: rgba(0, 0, 0, 0.45);
+  padding: 20px 40px;
+  border-radius: 6px;
+  text-align: center;
+}
+
+.hero h1 {
+  color: white;
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  color: #ddd;
+  font-size: 1.3rem;
+}
