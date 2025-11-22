@@ -20,43 +20,45 @@
   </nav>
 
   <!-- HERO SECTION -->
-  <header class="hero">
+  <header class="hero"></header>
 
-  </header>
-<section class="intro">
-  <div class="container">
-    <button id="learnMoreBtn" class="popup-btn">What is Ty∂a?</button>
-  </div>
-</section>
+  <!-- INTRO BUTTON -->
+  <section class="intro">
+    <button id="learnMoreBtn" class="popup-btn">
+      What is Ty∂a?
+    </button>
+  </section>
 
+  <!-- POPUP MODAL -->
   <div id="popupOverlay" class="popup-overlay">
-  <div class="popup-box">
-    <h2>About Ty∂a</h2>
-    <p>
-      Ty∂a is a constructed language designed for creativity and expression.
-      It has its own alphabet, words, and grammar, and this site documents the
-      entire development of the language.
-    </p>
+    <div class="popup-box">
+      <h2>About Ty∂a</h2>
+      <p>
+        Ty∂a is a constructed language made for creative expression and worldbuilding.
+        It features its own vocabulary, particles, grammar, and writing system.
+        This site documents the language and its development. </p>
+      <p> Change Logs</p>
+      <p> Nov 22, 2025: Creation of Ty∂a with alphabet, rules, website, and basic words.</p>
+    </div>
   </div>
-</div>
 
+  <!-- SCRIPT -->
   <script>
-  const popup = document.getElementById("popupOverlay");
-  const btn = document.getElementById("learnMoreBtn");
+    const popup = document.getElementById("popupOverlay");
+    const btn = document.getElementById("learnMoreBtn");
 
-  // Open popup
-  btn.addEventListener("click", () => {
-    popup.style.display = "flex";
-  });
+    // Open popup
+    btn.addEventListener("click", () => {
+      popup.style.display = "flex";
+    });
 
-  // Close popup when clicking outside the box
-  popup.addEventListener("click", (e) => {
-    if (e.target === popup) {
-      popup.style.display = "none";
-    }
-  });
-</script>
-
+    // Close when clicking outside popup
+    popup.addEventListener("click", (e) => {
+      if (e.target === popup) {
+        popup.style.display = "none";
+      }
+    });
+  </script>
 
 </body>
 </html>
