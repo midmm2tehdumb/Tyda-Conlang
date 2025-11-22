@@ -35,10 +35,9 @@ nav a:hover { opacity: 0.9; text-decoration: underline; }
 
 /* HERO */
 .hero {
-  /* hero.jpg should be 1000x700 (your provided file) */
   background: url("hero.jpg") center/cover no-repeat;
-  height: 420px; /* tall enough to look nice on desktop */
-  margin-top: 48px; /* leave room for fixed nav */
+  height: calc(1000 / 700 * 100vw); /* maintain 1000x700 ratio */
+  max-height: 700px; /* optional, avoid too tall on mobile */
 }
 
 /* INTRO (centered button) */
