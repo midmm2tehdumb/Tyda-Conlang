@@ -286,13 +286,19 @@
   {
     "word": "turb",
     "pronunciation": "turb / [turb]ine",
-    "meaning": "turbulence",
+    "meaning": "turbulence/unstable/shaking",
     "variants": []
   },
   {
     "word": "sök",
     "pronunciation": "soak",
-    "meaning": "sky / cloud",
+    "meaning": "snow / cold",
+    "variants": []
+  },
+  {
+    "word": "kös",
+    "pronunciation": "coes / [coas]t",
+    "meaning": "hot / heated",
     "variants": []
   },
   {
