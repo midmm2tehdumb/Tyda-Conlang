@@ -147,6 +147,13 @@ nav a.active {
   color: white;
   font-size: 1.3rem;
   padding: 15px 30px;
+
+/* ---------- ALPHABET ---------- */
+  table {
+  margin: 0 auto; /* centers the table horizontally */
+  border-collapse: collapse;
+}
+
   border: none;
   border-radius: 8px;
   cursor: pointer;
