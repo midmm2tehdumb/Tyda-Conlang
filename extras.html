@@ -6,47 +6,43 @@
   <title>Ty∂a Extras</title>
   <link rel="stylesheet" href="style.css">
   <style>
-    body {
-      font-family: Arial, sans-serif;
-    }
-    h1, h2 {
-      text-align: center;
-      margin-top: 2rem;
-    }
-    section {
+    /* Center content and styling */
+    .container {
       max-width: 1000px;
       margin: 2rem auto;
       padding: 0 1rem;
+      text-align: center;
     }
-    table {
-      width: 100%;
-      border-collapse: collapse;
+
+    h1 {
       margin-bottom: 2rem;
     }
-    th, td {
-      padding: 0.75rem;
-      border: 1px solid #ccc;
-      text-align: left;
-    }
-    th {
+
+    button {
       background-color: #729655;
       color: white;
+      border: none;
+      padding: 0.75rem 1.5rem;
+      margin: 0.5rem;
+      font-size: 1rem;
+      cursor: pointer;
+      border-radius: 5px;
+      transition: background-color 0.2s;
     }
-    .fun-cards {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 1rem;
-      justify-content: center;
+
+    button:hover {
+      background-color: #5e7a4a;
     }
-    .card {
-      background-color: #f5f5f5;
-      padding: 1rem;
-      border-radius: 8px;
-      width: 250px;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+
+    .result {
+      margin-top: 1rem;
+      font-size: 1.2rem;
+      font-weight: bold;
+      min-height: 2rem;
     }
-    .logs p {
-      margin: 0.5rem 0;
+
+    .generator-section {
+      margin-bottom: 3rem;
     }
   </style>
 </head>
@@ -63,85 +59,79 @@
     </ul>
   </nav>
 
-  <h1>Ty∂a Extras</h1>
+  <div class="container">
+    <h1>Ty∂a Extras</h1>
 
-  <!-- ALPHABET SECTION -->
-  <section>
-    <h2>Ty∂a Alphabet</h2>
-    <table>
-      <thead>
-        <tr>
-          <th>Letter / Symbol</th>
-          <th>Pronunciation</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr><td>a</td><td>ah</td></tr>
-        <tr><td>k</td><td>k</td></tr>
-        <tr><td>t</td><td>t</td></tr>
-        <tr><td>u</td><td>oo</td></tr>
-        <tr><td>ö</td><td>oe</td></tr>
-        <tr><td>æ</td><td>ah</td></tr>
-        <tr><td>p</td><td>p</td></tr>
-        <tr><td>m</td><td>m</td></tr>
-        <tr><td>v</td><td>v</td></tr>
-        <tr><td>s</td><td>s</td></tr>
-        <tr><td>ß</td><td>sh</td></tr>
-        <tr><td>i</td><td>ee</td></tr>
-        <tr><td>x</td><td>ks</td></tr>
-      </tbody>
-    </table>
-  </section>
-
-  <!-- SYMBOLS / SUFFIXES -->
-  <section>
-    <h2>Special Symbols & Suffixes</h2>
-    <table>
-      <thead>
-        <tr>
-          <th>Symbol</th>
-          <th>Meaning / Function</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr><td>∂</td><td>Present / ongoing</td></tr>
-        <tr><td>†</td><td>Past / completed</td></tr>
-        <tr><td>˚</td><td>Future / intended</td></tr>
-        <tr><td>∆</td><td>Concept / abstract</td></tr>
-        <tr><td>∫</td><td>Emphasis / focus</td></tr>
-        <tr><td>¬</td><td>Negation / opposite</td></tr>
-        <tr><td>ma</td><td>Question particle</td></tr>
-        <tr><td>la</td><td>Suggestion / request particle</td></tr>
-      </tbody>
-    </table>
-  </section>
-
-  <!-- FUN EXTRAS -->
-  <section>
-    <h2>Fun Extras</h2>
-    <div class="fun-cards">
-      <div class="card">
-        <h3>Example Phrase</h3>
-        <p>mi tap∂ xö – I am eating food</p>
-      </div>
-      <div class="card">
-        <h3>Random Word Generator</h3>
-        <p>Generate new Ty∂a words with suffixes (coming soon!)</p>
-      </div>
-      <div class="card">
-        <h3>Phrase Ideas</h3>
-        <p>tya∫ lun – Sun (emphasized) light</p>
-      </div>
+    <!-- Single-word generator -->
+    <div class="generator-section">
+      <h2>Random Single Word</h2>
+      <button id="randomWordBtn">Generate Word</button>
+      <div id="wordResult" class="result"></div>
     </div>
-  </section>
 
-  <!-- DEVELOPMENT LOGS -->
-  <section class="logs">
-    <h2>Development Logs</h2>
-    <p>Nov 22, 2025 – Initial creation of Ty∂a, alphabet, and basic dictionary.</p>
-    <p>Nov 23, 2025 – Added grammar suffixes and sample sentences.</p>
-    <p>Nov 24, 2025 – Created site layout and navigation.</p>
-  </section>
+    <!-- Multi-word generator -->
+    <div class="generator-section">
+      <h2>Random Multi-word Combination</h2>
+      <button id="randomMultiBtn">Generate Multi-word</button>
+      <div id="multiResult" class="result"></div>
+    </div>
+
+    <!-- Random phrase generator -->
+    <div class="generator-section">
+      <h2>Random Sample Phrase</h2>
+      <button id="randomPhraseBtn">Generate Phrase</button>
+      <div id="phraseResult" class="result"></div>
+    </div>
+  </div>
+
+  <script>
+    // Random helper
+    function getRandomItem(arr) {
+      return arr[Math.floor(Math.random() * arr.length)];
+    }
+
+    // Single-word generator
+    fetch('tyda-dictionary.json')
+      .then(res => res.json())
+      .then(data => {
+        const btn = document.getElementById('randomWordBtn');
+        const result = document.getElementById('wordResult');
+
+        btn.addEventListener('click', () => {
+          const entry = getRandomItem(data);
+          result.textContent = `${entry.word} (${entry.pronunciation}) — ${entry.meaning}`;
+        });
+      })
+      .catch(err => console.error('Error loading dictionary:', err));
+
+    // Multi-word generator
+    fetch('tyda-multiword.json')
+      .then(res => res.json())
+      .then(data => {
+        const btn = document.getElementById('randomMultiBtn');
+        const result = document.getElementById('multiResult');
+
+        btn.addEventListener('click', () => {
+          const entry = getRandomItem(data);
+          result.textContent = entry.phrase;
+        });
+      })
+      .catch(err => console.error('Error loading multi-word dataset:', err));
+
+    // Phrase generator
+    fetch('tyda-phrases.json')
+      .then(res => res.json())
+      .then(data => {
+        const btn = document.getElementById('randomPhraseBtn');
+        const result = document.getElementById('phraseResult');
+
+        btn.addEventListener('click', () => {
+          const entry = getRandomItem(data);
+          result.textContent = `${entry.phrase} — ${entry.translation}`;
+        });
+      })
+      .catch(err => console.error('Error loading phrases:', err));
+  </script>
 
 </body>
 </html>
