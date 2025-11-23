@@ -45,6 +45,21 @@
       border-radius: 3px;
     }
 
+    tr.expandable {
+      cursor: pointer;
+      background-color: #f9f9f9;
+    }
+
+    tr.details {
+      display: none;
+      background-color: #e8e8e8;
+    }
+
+    tr.details td {
+      padding-left: 2rem;
+      font-style: italic;
+    }
+
     .example-category {
       margin-bottom: 2rem;
       padding: 1rem;
@@ -77,23 +92,48 @@
         <tr>
           <th>Ty∂a</th>
           <th>English</th>
-          <th>Notes</th>
         </tr>
-        <tr>
+
+        <tr class="expandable">
           <td><code>mi tap∂ xö</code></td>
           <td>I am eating food</td>
-          <td>Present / ongoing action: ∂ suffix</td>
         </tr>
-        <tr>
+        <tr class="details">
+          <td colspan="2">
+            <strong>Breakdown:</strong> <br>
+            <code>mi</code> = I / me (subject) <br>
+            <code>tap∂</code> = eat-ongoing (present particle ∂ suffix) <br>
+            <code>xö</code> = food (object)
+          </td>
+        </tr>
+
+        <tr class="expandable">
           <td><code>vu kax˚ xö ma?</code></td>
           <td>Will you want food?</td>
-          <td>Future tense: ˚ suffix, question particle ma</td>
         </tr>
-        <tr>
+        <tr class="details">
+          <td colspan="2">
+            <strong>Breakdown:</strong> <br>
+            <code>vu</code> = you (subject) <br>
+            <code>kax˚</code> = want-future (˚ suffix) <br>
+            <code>xö</code> = food (object) <br>
+            <code>ma</code> = question particle
+          </td>
+        </tr>
+
+        <tr class="expandable">
           <td><code>tyangrolun</code></td>
           <td>Bright big sun</td>
-          <td>Descriptor follows root: gro (big) + lun (light)</td>
         </tr>
+        <tr class="details">
+          <td colspan="2">
+            <strong>Breakdown:</strong> <br>
+            <code>tya</code> = sun (root) <br>
+            <code>gro</code> = big (descriptor) <br>
+            <code>lun</code> = light (descriptor)
+          </td>
+        </tr>
+
       </table>
     </div>
 
@@ -103,53 +143,48 @@
         <tr>
           <th>Ty∂a</th>
           <th>English</th>
-          <th>Notes</th>
         </tr>
-        <tr>
+
+        <tr class="expandable">
           <td><code>pööks</code></td>
           <td>Happy / joy</td>
-          <td>Emotion root</td>
         </tr>
-        <tr>
+        <tr class="details">
+          <td colspan="2">
+            <strong>Breakdown:</strong> <br>
+            <code>pööks</code> = happiness root
+          </td>
+        </tr>
+
+        <tr class="expandable">
           <td><code>ßuß</code></td>
           <td>Sad / sorrow</td>
-          <td>Emotion root</td>
         </tr>
-        <tr>
-          <td><code>vasö</code></td>
-          <td>Love / affection</td>
-          <td>Emotion root</td>
+        <tr class="details">
+          <td colspan="2">
+            <strong>Breakdown:</strong> <br>
+            <code>ßuß</code> = sadness root
+          </td>
         </tr>
-      </table>
-    </div>
 
-    <div class="example-category">
-      <h2>Natural Elements & Environment</h2>
-      <table>
-        <tr>
-          <th>Ty∂a</th>
-          <th>English</th>
-          <th>Notes</th>
-        </tr>
-        <tr>
-          <td><code>pæ∆</code></td>
-          <td>Tree (concept)</td>
-          <td>Concept suffix ∆</td>
-        </tr>
-        <tr>
-          <td><code>su söa</code></td>
-          <td>Sky / clouds</td>
-          <td>su = sky, söa = cloud / sky object</td>
-        </tr>
-        <tr>
-          <td><code>ixu</code></td>
-          <td>Rain / precipitation event</td>
-          <td>ix = rain, ixu = rain event</td>
-        </tr>
       </table>
     </div>
 
   </div>
+
+  <script>
+    // Expand/collapse samples
+    document.querySelectorAll('tr.expandable').forEach(row => {
+      row.addEventListener('click', () => {
+        const detailsRow = row.nextElementSibling;
+        if (detailsRow.style.display === 'table-row') {
+          detailsRow.style.display = 'none';
+        } else {
+          detailsRow.style.display = 'table-row';
+        }
+      });
+    });
+  </script>
 
 </body>
 </html>
