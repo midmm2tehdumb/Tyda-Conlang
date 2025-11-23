@@ -134,3 +134,21 @@ nav a.active {
     padding: 20px;
   }
 }
+
+.intro {
+  position: relative; /* or static if needed */
+  text-align: center; /* centers inline-block/button horizontally */
+  margin-top: 0; /* remove any flex centering */
+  padding: 40px 0; /* optional spacing from bottom */
+}
+
+.popup-btn {
+  background-color: #729655;
+  color: white;
+  font-size: 1.3rem;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
