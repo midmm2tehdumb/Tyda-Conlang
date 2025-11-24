@@ -17,8 +17,10 @@
     "word": "fört",
     "pronunciation": "fort",
     "meaning": "Good / Good at",
-    "variants": [{"form": "smifört", "pronunciation": "s-me-fört", "meaning": "Decent"},
-      {"form": "smiskatfört", "pronunciation": "s-me-scot-fört", "meaning": "Precise"}]
+    "variants": [
+      {"form": "smifört", "pronunciation": "s-me-fört", "meaning": "Decent"},
+      {"form": "smiskatfört", "pronunciation": "s-me-scot-fört", "meaning": "Precise"}
+    ]
   },
   {
     "word": "aye",
@@ -173,7 +175,9 @@
     "word": "ßesk",
     "pronunciation": "shesk / [sh]oe [esk]imo",
     "meaning": "Help / Assist",
-    "variants": ["form": "ßelk", "pronunciation": "shelk", "meaning": "Emergency"]
+    "variants": [
+      {"form": "ßelk", "pronunciation": "shelk", "meaning": "Emergency"}
+    ]
   },
   {
     "word": "pæ",
@@ -283,7 +287,9 @@
     "word": "smi",
     "pronunciation": "smee / [smea]r",
     "meaning": "small",
-    "variants": [{"form": "smitix", "pronunciation": "s-me-ticks", "meaning": "Constrained time / Time limit"}]
+    "variants": [
+      {"form": "smitix", "pronunciation": "s-me-ticks", "meaning": "Constrained time / Time limit"}
+    ]
   },
   {
     "word": "kta",
@@ -333,7 +339,7 @@
     "meaning": "movement through",
     "variants": []
   },
-    {
+  {
     "word": "löt",
     "pronunciation": "lowt / [lo]ane[d]",
     "meaning": "transport",
