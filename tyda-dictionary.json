@@ -144,8 +144,8 @@
     ]
   },
   {
-    "word": "vo",
-    "pronunciation": "voh / [vo]ted",
+    "word": "volo",
+    "pronunciation": "vohlo / [vo]ted [low]",
     "meaning": "speak / tell",
     "variants": []
   },
@@ -221,9 +221,9 @@
     "pronunciation": "vow",
     "meaning": "house / building",
     "variants": [
-      {"form": "vöx", "pronunciation": "voex", "meaning": "area / platform"}
-      {"form": "moxvöx", "pronunciation": "mocks vocks", "meaning": "farm / field"}
-      {"form": "pövou", "pronunciation": "pa-vow", "meaning": "fire station / fire house"}
+      {"form": "vöx", "pronunciation": "voex", "meaning": "area / platform"},
+      {"form": "moxvöx", "pronunciation": "mocks vocks", "meaning": "farm / field"},
+      {"form": "pövou", "pronunciation": "pa-vow", "meaning": "fire station / fire house"},
       {"form": "möxvou", "pronunciation": "mocks-vow", "meaning": "barn / farmhouse / pethouse"}
     ]
   },
