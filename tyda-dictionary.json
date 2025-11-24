@@ -221,7 +221,10 @@
     "pronunciation": "vow",
     "meaning": "house / building",
     "variants": [
-      {"form": "vöx", "pronunciation": "voex", "meaning": "structure / building"}
+      {"form": "vöx", "pronunciation": "voex", "meaning": "area / platform"}
+      {"form": "moxvöx", "pronunciation": "mocks vocks", "meaning": "farm / field"}
+      {"form": "pövou", "pronunciation": "pa-vow", "meaning": "fire station / fire house"}
+      {"form": "möxvou", "pronunciation": "mocks-vow", "meaning": "barn / farmhouse / pethouse"}
     ]
   },
   {
@@ -267,6 +270,12 @@
     "word": "lun",
     "pronunciation": "loon / [lun]atic",
     "meaning": "light",
+    "variants": []
+  },
+  {
+    "word": "mörke",
+    "pronunciation": "mork / [more] mar[k]",
+    "meaning": "Shop / Market",
     "variants": []
   },
   {
