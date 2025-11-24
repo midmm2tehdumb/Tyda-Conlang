@@ -1,27 +1,33 @@
-[
+1[
   {
     "word": "vös",
     "pronunciation": "voes / bra[voe]d",
     "meaning": "Hello / Greeting",
-    "variants": []
+    "variants": [
+      {"form": "förtvösvu", "pronunciation": "fort voes voo", "meaning": "Good Greetings to you (Formal)"
   },
   {
     "word": "æt",
     "pronunciation": "at / [at]om",
     "meaning": "Yes / Agree",
-    "variants": []
+    "variants": [{"form": "ætæ", "pronunciation": "atta", "meaning": "Very / Very much"}]
   },
   {
     "word": "fört",
     "pronunciation": "fort",
     "meaning": "Good / Good at",
-    "variants": []
+    "variants": [
+      {"form": "smifört", "pronunciation": "s-me-fört", "meaning": "Decent"}
+      {"form": "smiskatfört", "pronunciation": "s-me-scot-fört", "meaning": "Precise}
+    ]
   },
   {
     "word": "aye",
     "pronunciation": "ay / h[ey]",
     "meaning": "Bad / Bad at",
-    "variants": []
+    "variants": [
+      {"form": "groaye", "pronunciation": "grow-aye", "meaning": "Horrible"}
+    ]
   },
   {
     "word": "mö",
@@ -194,6 +200,14 @@
     "variants": []
   },
   {
+    "word": "ulto",
+    "pronunciation": "alto / [all] [toe]",
+    "meaning": "job",
+    "variants": [
+      {"form": "möxulto", "pronunciation": "mocks-alto", "meaning": "Farmer"}
+    ]
+  },
+  {
     "word": "pö",
     "pronunciation": "poe / [po]pe",
     "meaning": "fire",
@@ -270,7 +284,7 @@
     "word": "smi",
     "pronunciation": "smee / [smea]r",
     "meaning": "small",
-    "variants": []
+    "variants": [{"form": "smitix", "pronunciation": "s-me-ticks", "meaning": "Constrained time / Time limit"}]
   },
   {
     "word": "kta",
