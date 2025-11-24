@@ -40,31 +40,23 @@
     "word": "mi",
     "pronunciation": "mee / [mee]ting",
     "meaning": "I / me",
-    "variants": []
+    "variants": [
+      {"form": "mis", "pronunciation": "mees", "meaning": "We"}
+    ]
   },
   {
     "word": "vu",
     "pronunciation": "voo / [voo]doo",
     "meaning": "you (singular)",
-    "variants": []
+    "variants": [{"form": "vut", "pronunciation": "foot", "meaning": "you (plural)"}]
   },
   {
     "word": "se",
     "pronunciation": "say",
     "meaning": "he / she / they",
-    "variants": []
-  },
-  {
-    "word": "mis",
-    "pronunciation": "mees / [mea]t[s]",
-    "meaning": "we",
-    "variants": []
-  },
-  {
-    "word": "ses",
-    "pronunciation": "sess / [sess]ion",
-    "meaning": "they (plural)",
-    "variants": []
+    "variants": [
+      {"form": "ses", "pronunciation": "sess", "meaning": "he / she / they (Plural)"}
+    ]
   },
   {
     "word": "i",
