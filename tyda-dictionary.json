@@ -188,6 +188,16 @@
       {"form": "moxem", "pronunciation": "mocks-em", "meaning": "farm / food animal"}
     ]
   },
+  },
+  {
+    "word": "pöx",
+    "pronunciation": "pocks",
+    "meaning": "person",
+    "variants": [
+      {"form": "smipöx", "pronunciation": "s-me-pocks", "meaning": "dwarf person"},
+      {"form": "gropöx", "pronunciation": "grow-pocks", "meaning": "giant person"}
+    ]
+  },
   {
     "word": "æx",
     "pronunciation": "axe / [axe]l",
@@ -199,7 +209,8 @@
     "pronunciation": "alto / [all] [toe]",
     "meaning": "job",
     "variants": [
-      {"form": "möxulto", "pronunciation": "mocks-alto", "meaning": "Farmer"}
+      {"form": "möxulto", "pronunciation": "mocks-alto", "meaning": "Farmer"},
+      {"form": "morkulto", "pronunciation": "mork-alto", "meaning": "Salesman"}
     ]
   },
   {
