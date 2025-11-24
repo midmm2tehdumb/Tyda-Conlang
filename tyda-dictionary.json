@@ -16,10 +16,8 @@
     "word": "fört",
     "pronunciation": "fort",
     "meaning": "Good / Good at",
-    "variants": [
-      {"form": "smifört", "pronunciation": "s-me-fört", "meaning": "Decent"}
-      {"form": "smiskatfört", "pronunciation": "s-me-scot-fört", "meaning": "Precise"}
-    ]
+    "variants": [{"form": "smifört", "pronunciation": "s-me-fört", "meaning": "Decent"},
+      {"form": "smiskatfört", "pronunciation": "s-me-scot-fört", "meaning": "Precise"}]
   },
   {
     "word": "aye",
@@ -189,7 +187,7 @@
     "pronunciation": "mocks",
     "meaning": "animal",
     "variants": [
-      {"form": "moxpit", "pronunciation": "mocks-pet", "meaning": "domestic / pet animal"}
+      {"form": "moxpit", "pronunciation": "mocks-pet", "meaning": "domestic / pet animal"},
       {"form": "moxem", "pronunciation": "mocks-em", "meaning": "farm / food animal"}
     ]
   },
