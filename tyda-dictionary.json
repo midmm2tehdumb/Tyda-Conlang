@@ -399,6 +399,22 @@
     "variants": []
   },
   {
+    "word": "kalt",
+    "pronunciation": "cult",
+    "meaning": "colour",
+    "variants": [
+      {"form": "pul", "pronunciation": "pull", "meaning": "black"},
+      {"form": "map", "pronunciation": "map", "meaning": "white"},
+      {"form": "cor", "pronunciation": "core", "meaning": "Red"},
+      {"form": "mör", "pronunciation": "more", "meaning": "Blue"},
+      {"form": "uni", "pronunciation": "[Un]iversity [E]vent", "meaning": "Yellow"},
+      {"form": "mamim", "pronunciation": "[ma'am] est[eem]ed", "meaning": "Orange"},
+      {"form": "ßen", "pronunciation": "Shen / [Shen]zhen", "meaning": "Pink"},
+      {"form": "buß", "pronunciation": "bush", "meaning": "Purple"},
+      {"form": "dir", "pronunciation": "Deer", "meaning": "Brown"}
+    ]
+  },
+  {
     "word": "pööks",
     "pronunciation": "pokes / [poke]r",
     "meaning": "happy / joy",
