@@ -89,6 +89,14 @@
     "variants": []
   },
   {
+    "word": "litit",
+    "pronunciation": "Light it",
+    "meaning": "Create/Make",
+    "variants": [
+      {"form": "loopu", "pronunciation": "loop-ew", "meaning": "fix"}
+    ]
+  },
+  {
     "word": "skat",
     "pronunciation": "scott / [scot]ches",
     "meaning": "throw / toss",
