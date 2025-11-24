@@ -183,7 +183,8 @@
     "pronunciation": "mocks",
     "meaning": "animal",
     "variants": [
-      {"form": "mox", "pronunciation": "mok-pet", "meaning": "domestic / pet animal"}
+      {"form": "moxpit", "pronunciation": "mocks-pet", "meaning": "domestic / pet animal"}
+      {"form": "moxem", "pronunciation": "mocks-em", "meaning": "farm / food animal"}
     ]
   },
   {
