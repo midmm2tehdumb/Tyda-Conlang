@@ -85,7 +85,7 @@
   {
     "word": "mut",
     "pronunciation": "moot / [moo]se [t]able",
-    "meaning": "what / confusion",
+    "meaning": "how / how to",
     "variants": []
   },
   {
@@ -131,6 +131,22 @@
     "pronunciation": "lah / [la]titude",
     "meaning": "suggestion particle",
     "variants": []
+  },
+  {
+    "word": "omam",
+    "pronunciation": "oh ma'am",
+    "meaning": "Front",
+    "variants": [
+      {"form": "öxam", "pronunciation": "oak-sam", "meaning": "Forward / After"}
+    ]
+  },
+  {
+    "word": "pimo",
+    "pronunciation": "pee-mou / [pee] [moa]t",
+    "meaning": "Back / Rear",
+    "variants": [
+      {"form": "pixo", "pronunciation": "picks-oh", "meaning": "Behind / Before"}
+    ]
   },
   {
     "word": "tap",
