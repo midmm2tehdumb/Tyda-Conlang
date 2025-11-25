@@ -136,8 +136,8 @@
     "meaning": "Create/Make",
     "variants": [
       {
-        "form": "litop",
-        "pronunciation": "lee-top",
+        "form": "litoo",
+        "pronunciation": "light-too",
         "meaning": "fix"
       }
     ]
@@ -185,8 +185,8 @@
     ]
   },
   {
-    "word": "pimo",
-    "pronunciation": "pee-mou",
+    "word": "pikolo",
+    "pronunciation": "piccolo,
     "meaning": "Back / Rear",
     "variants": [
       {
@@ -286,7 +286,7 @@
   {
     "word": "pæ",
     "pronunciation": "pah",
-    "meaning": "tree / plant",
+    "meaning": "grass / plant",
     "variants": [
       {
         "form": "æpx",
@@ -439,13 +439,13 @@
     ]
   },
   {
-    "word": "tix",
-    "pronunciation": "tiks",
+    "word": "tixom",
+    "pronunciation": "tiks-on",
     "meaning": "time",
     "variants": [
       {
-        "form": "tixu",
-        "pronunciation": "tiks-oo",
+        "form": "tixum",
+        "pronunciation": "tick-zoom",
         "meaning": "time segment"
       }
     ]
