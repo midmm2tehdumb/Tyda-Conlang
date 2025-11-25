@@ -1,13 +1,18 @@
 [
   {
     "word": "vös",
-    "pronunciation": "voes / braud",
+    "pronunciation": "voes / foes",
     "meaning": "Hello / Greeting",
     "variants": [
       {
         "form": "förtvösvu",
         "pronunciation": "fort voes voo",
         "meaning": "Good Greetings to you (Formal)"
+      },
+      {
+        "form": "vös¬",
+        "pronunciation": "voes nut",
+        "meaning": "Bye"
       }
     ]
   },
