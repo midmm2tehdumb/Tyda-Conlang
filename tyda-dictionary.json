@@ -1,134 +1,174 @@
 [
   {
     "word": "vös",
-    "pronunciation": "voes / bra[voe]d",
+    "pronunciation": "voes / braud",
     "meaning": "Hello / Greeting",
     "variants": [
-      {"form": "förtvösvu", "pronunciation": "fort voes voo", "meaning": "Good Greetings to you (Formal)"}
+      {
+        "form": "förtvösvu",
+        "pronunciation": "fort voes voo",
+        "meaning": "Good Greetings to you (Formal)"
+      }
     ]
   },
   {
     "word": "æt",
-    "pronunciation": "at / [at]om",
+    "pronunciation": "at",
     "meaning": "Yes / Agree",
-    "variants": [{"form": "ætæ", "pronunciation": "atta", "meaning": "Very / Very much"}]
+    "variants": [
+      {
+        "form": "ætæ",
+        "pronunciation": "atta",
+        "meaning": "Very / Very much"
+      }
+    ]
   },
   {
     "word": "fört",
     "pronunciation": "fort",
     "meaning": "Good / Good at",
     "variants": [
-      {"form": "smifört", "pronunciation": "s-me-fört", "meaning": "Decent"},
-      {"form": "smiskatfört", "pronunciation": "s-me-scot-fört", "meaning": "Precise"}
+      {
+        "form": "smifört",
+        "pronunciation": "s-me-fört",
+        "meaning": "Decent"
+      },
+      {
+        "form": "smiskatfört",
+        "pronunciation": "s-me-scot-fört",
+        "meaning": "Precise"
+      }
     ]
   },
   {
     "word": "aye",
-    "pronunciation": "ay / h[ey]",
+    "pronunciation": "ay / hey",
     "meaning": "Bad / Bad at",
     "variants": [
-      {"form": "groaye", "pronunciation": "grow-aye", "meaning": "Horrible"}
+      {
+        "form": "groaye",
+        "pronunciation": "grow-aye",
+        "meaning": "Horrible"
+      }
     ]
   },
   {
     "word": "mö",
-    "pronunciation": "moh / [mo[th",
+    "pronunciation": "moh",
     "meaning": "No / Disagree",
     "variants": []
   },
   {
     "word": "mi",
-    "pronunciation": "mee / [mee]ting",
+    "pronunciation": "mee",
     "meaning": "I / me",
     "variants": [
-      {"form": "mis", "pronunciation": "mees", "meaning": "We"}
+      {
+        "form": "mis",
+        "pronunciation": "mees",
+        "meaning": "We"
+      }
     ]
   },
   {
     "word": "vu",
-    "pronunciation": "voo / [voo]doo",
+    "pronunciation": "voo",
     "meaning": "you (singular)",
-    "variants": [{"form": "vut", "pronunciation": "foot", "meaning": "you (plural)"}]
+    "variants": [
+      {
+        "form": "vut",
+        "pronunciation": "foot",
+        "meaning": "you (plural)"
+      }
+    ]
   },
   {
     "word": "se",
     "pronunciation": "say",
     "meaning": "he / she / they",
     "variants": [
-      {"form": "ses", "pronunciation": "sess", "meaning": "he / she / they (Plural)"}
+      {
+        "form": "ses",
+        "pronunciation": "sess",
+        "meaning": "he / she / they (Plural)"
+      }
     ]
   },
   {
     "word": "i",
-    "pronunciation": "ee / f[ee]d",
+    "pronunciation": "ee",
     "meaning": "present particle",
     "variants": []
   },
   {
     "word": "tat",
-    "pronunciation": "tat / [tat]oo",
+    "pronunciation": "tat",
     "meaning": "the",
     "variants": []
   },
   {
     "word": "tisk",
-    "pronunciation": "tisk / r[isk]",
+    "pronunciation": "tisk",
     "meaning": "is / are",
     "variants": []
   },
   {
     "word": "vuß",
-    "pronunciation": "voosh / p[ush]",
+    "pronunciation": "voosh",
     "meaning": "what / confusion",
     "variants": []
   },
   {
     "word": "mut",
-    "pronunciation": "moot / [moo]se [t]able",
+    "pronunciation": "moot",
     "meaning": "how / how to",
     "variants": []
   },
   {
     "word": "vvvvvvvv",
-    "pronunciation": "vavavavavava / [va]st",
+    "pronunciation": "vavavavavava",
     "meaning": "laugh",
     "variants": []
   },
   {
     "word": "litit",
-    "pronunciation": "Light it",
+    "pronunciation": "light it",
     "meaning": "Create/Make",
     "variants": [
-      {"form": "loopu", "pronunciation": "loop-ew", "meaning": "fix"}
+      {
+        "form": "litop",
+        "pronunciation": "lee-top",
+        "meaning": "fix"
+      }
     ]
   },
   {
     "word": "skat",
-    "pronunciation": "scott / [scot]ches",
+    "pronunciation": "scott",
     "meaning": "throw / toss",
     "variants": []
   },
   {
     "word": "a",
-    "pronunciation": "ah / f[a]ther",
+    "pronunciation": "ah",
     "meaning": "past particle",
     "variants": []
   },
   {
     "word": "u",
-    "pronunciation": "oo / [u]ranus",
+    "pronunciation": "oo",
     "meaning": "future particle",
     "variants": []
   },
   {
     "word": "ma",
-    "pronunciation": "mah / [ma]rs",
+    "pronunciation": "mah",
     "meaning": "question particle",
     "variants": []
   },
   {
     "word": "la",
-    "pronunciation": "lah / [la]titude",
+    "pronunciation": "lah",
     "meaning": "suggestion particle",
     "variants": []
   },
@@ -137,15 +177,23 @@
     "pronunciation": "oh ma'am",
     "meaning": "Front",
     "variants": [
-      {"form": "öxam", "pronunciation": "oak-sam", "meaning": "Forward / After"}
+      {
+        "form": "öxam",
+        "pronunciation": "oak-sam",
+        "meaning": "Forward / After"
+      }
     ]
   },
   {
     "word": "pimo",
-    "pronunciation": "pee-mou / [pee] [moa]t",
+    "pronunciation": "pee-mou",
     "meaning": "Back / Rear",
     "variants": [
-      {"form": "pixo", "pronunciation": "picks-oh", "meaning": "Behind / Before"}
+      {
+        "form": "pixo",
+        "pronunciation": "picks-oh",
+        "meaning": "Behind / Before"
+      }
     ]
   },
   {
@@ -153,64 +201,98 @@
     "pronunciation": "tap",
     "meaning": "eat",
     "variants": [
-      {"form": "tapa", "pronunciation": "tap-ah", "meaning": "ate / past"},
-      {"form": "tapu", "pronunciation": "tap-oo", "meaning": "will eat / future"},
-      {"form": "tapix", "pronunciation": "tap-icks", "meaning": "eating / progressive"}
+      {
+        "form": "tapa",
+        "pronunciation": "tap-ah",
+        "meaning": "ate / past"
+      },
+      {
+        "form": "tapu",
+        "pronunciation": "tap-oo",
+        "meaning": "will eat / future"
+      },
+      {
+        "form": "tapix",
+        "pronunciation": "tap-icks",
+        "meaning": "eating / progressive"
+      }
     ]
   },
   {
     "word": "ßak",
-    "pronunciation": "shack / [Shaq]uille o' neal",
+    "pronunciation": "shack",
     "meaning": "move / go",
     "variants": [
-            {"form": "ßap", "pronunciation": "[sha]r[p]", "meaning": "Leaving / Departing"},
-      {"form": "tapu", "pronunciation": "tap-oo", "meaning": "will eat / future"},
-      {"form": "tapix", "pronunciation": "tap-icks", "meaning": "eating / progressive"}
+      {
+        "form": "ßap",
+        "pronunciation": "sharp",
+        "meaning": "Leaving / Departing"
+      }
     ]
   },
   {
     "word": "sax",
-    "pronunciation": "sax / [sax]ophone",
+    "pronunciation": "sax",
     "meaning": "look / see",
     "variants": [
-      {"form": "saxö", "pronunciation": "sahx-oe", "meaning": "rest / sleep"},
-      {"form": "saxæ", "pronunciation": "sahx-a", "meaning": "view / vision"}
+      {
+        "form": "saxö",
+        "pronunciation": "sahx-oe",
+        "meaning": "rest / sleep"
+      },
+      {
+        "form": "saxæ",
+        "pronunciation": "sahx-a",
+        "meaning": "view / vision"
+      }
     ]
   },
   {
     "word": "volo",
-    "pronunciation": "vohlo / [vo]ted [low]",
+    "pronunciation": "vohlo",
     "meaning": "speak / tell",
     "variants": []
   },
   {
     "word": "kax",
-    "pronunciation": "kaks / [cack]le",
+    "pronunciation": "kaks",
     "meaning": "want / need",
     "variants": [
-      {"form": "kaxæ", "pronunciation": "kaks-a", "meaning": "desire / need (abstract)"}
+      {
+        "form": "kaxæ",
+        "pronunciation": "kaks-a",
+        "meaning": "desire / need (abstract)"
+      }
     ]
   },
   {
     "word": "vix",
-    "pronunciation": "vix / [vix]en",
+    "pronunciation": "vix",
     "meaning": "have / possess",
     "variants": []
   },
   {
     "word": "ßesk",
-    "pronunciation": "shesk / [sh]oe [esk]imo",
+    "pronunciation": "shesk",
     "meaning": "Help / Assist",
     "variants": [
-      {"form": "ßelk", "pronunciation": "shelk", "meaning": "Emergency"}
+      {
+        "form": "ßelk",
+        "pronunciation": "shelk",
+        "meaning": "Emergency"
+      }
     ]
   },
   {
     "word": "pæ",
-    "pronunciation": "pah / [pa]trol",
+    "pronunciation": "pah",
     "meaning": "tree / plant",
     "variants": [
-      {"form": "æpx", "pronunciation": "ax-pah", "meaning": "plant type"}
+      {
+        "form": "æpx",
+        "pronunciation": "ax-pah",
+        "meaning": "plant type"
+      }
     ]
   },
   {
@@ -218,8 +300,16 @@
     "pronunciation": "mocks",
     "meaning": "animal",
     "variants": [
-      {"form": "moxpit", "pronunciation": "mocks-pet", "meaning": "domestic / pet animal"},
-      {"form": "moxem", "pronunciation": "mocks-em", "meaning": "farm / food animal"}
+      {
+        "form": "moxpit",
+        "pronunciation": "mocks-pet",
+        "meaning": "domestic / pet animal"
+      },
+      {
+        "form": "moxem",
+        "pronunciation": "mocks-em",
+        "meaning": "farm / food animal"
+      }
     ]
   },
   {
@@ -227,37 +317,57 @@
     "pronunciation": "pocks",
     "meaning": "person",
     "variants": [
-      {"form": "smipöx", "pronunciation": "s-me-pocks", "meaning": "dwarf person"},
-      {"form": "gropöx", "pronunciation": "grow-pocks", "meaning": "giant person"}
+      {
+        "form": "smipöx",
+        "pronunciation": "s-me-pocks",
+        "meaning": "dwarf person"
+      },
+      {
+        "form": "gropöx",
+        "pronunciation": "grow-pocks",
+        "meaning": "giant person"
+      }
     ]
   },
   {
     "word": "æx",
-    "pronunciation": "axe / [axe]l",
+    "pronunciation": "axe",
     "meaning": "water",
     "variants": []
   },
   {
     "word": "ulto",
-    "pronunciation": "alto / [all] [toe]",
+    "pronunciation": "alto",
     "meaning": "job",
     "variants": [
-      {"form": "möxulto", "pronunciation": "mocks-alto", "meaning": "Farmer"},
-      {"form": "morkulto", "pronunciation": "mork-alto", "meaning": "Salesman"}
+      {
+        "form": "möxulto",
+        "pronunciation": "mocks-alto",
+        "meaning": "Farmer"
+      },
+      {
+        "form": "morkulto",
+        "pronunciation": "mork-alto",
+        "meaning": "Salesman"
+      }
     ]
   },
   {
     "word": "pö",
-    "pronunciation": "poe / [po]pe",
+    "pronunciation": "poe",
     "meaning": "fire",
     "variants": []
   },
   {
     "word": "xö",
-    "pronunciation": "zoe / [zoe]y (the name)",
+    "pronunciation": "zoe",
     "meaning": "food",
     "variants": [
-      {"form": "pök", "pronunciation": "poek", "meaning": "food source / edible"}
+      {
+        "form": "pök",
+        "pronunciation": "poek",
+        "meaning": "food source / edible"
+      }
     ]
   },
   {
@@ -265,10 +375,26 @@
     "pronunciation": "vow",
     "meaning": "house / building",
     "variants": [
-      {"form": "vöx", "pronunciation": "voex", "meaning": "area / platform"},
-      {"form": "moxvöx", "pronunciation": "mocks vocks", "meaning": "farm / field"},
-      {"form": "pövou", "pronunciation": "pa-vow", "meaning": "fire station / fire house"},
-      {"form": "möxvou", "pronunciation": "mocks-vow", "meaning": "barn / farmhouse / pethouse"}
+      {
+        "form": "vöx",
+        "pronunciation": "voex",
+        "meaning": "area / platform"
+      },
+      {
+        "form": "moxvöx",
+        "pronunciation": "mocks voex",
+        "meaning": "farm / field"
+      },
+      {
+        "form": "pövou",
+        "pronunciation": "pa-vow",
+        "meaning": "fire station / fire house"
+      },
+      {
+        "form": "möxvou",
+        "pronunciation": "mocks-vow",
+        "meaning": "barn / farmhouse / pethouse"
+      }
     ]
   },
   {
@@ -276,82 +402,106 @@
     "pronunciation": "sue",
     "meaning": "sky",
     "variants": [
-      {"form": "söa", "pronunciation": "soe-ah", "meaning": "cloud / sky object"}
+      {
+        "form": "söa",
+        "pronunciation": "soe-ah",
+        "meaning": "cloud / sky object"
+      }
     ]
   },
   {
     "word": "xa",
-    "pronunciation": "za / [za]mbia",
+    "pronunciation": "za",
     "meaning": "wind",
     "variants": [
-      {"form": "tkö", "pronunciation": "tkoh", "meaning": "air current / wind flow"},
-      {"form": "xaö", "pronunciation": "za-oe", "meaning": "wind gust / air flow"}
+      {
+        "form": "tkö",
+        "pronunciation": "tkoh",
+        "meaning": "air current / wind flow"
+      },
+      {
+        "form": "xaö",
+        "pronunciation": "za-oe",
+        "meaning": "wind gust / air flow"
+      }
     ]
   },
   {
     "word": "ix",
-    "pronunciation": "icks / f[ix]",
+    "pronunciation": "icks",
     "meaning": "rain",
     "variants": [
-      {"form": "ixu", "pronunciation": "icks-oo", "meaning": "precipitation / rain event"}
+      {
+        "form": "ixu",
+        "pronunciation": "icks-oo",
+        "meaning": "precipitation / rain event"
+      }
     ]
   },
   {
     "word": "tix",
-    "pronunciation": "tiks / ticks",
+    "pronunciation": "tiks",
     "meaning": "time",
     "variants": [
-      {"form": "tixu", "pronunciation": "tiks-oo", "meaning": "time segment"}
+      {
+        "form": "tixu",
+        "pronunciation": "tiks-oo",
+        "meaning": "time segment"
+      }
     ]
   },
   {
     "word": "tya",
-    "pronunciation": "tee-ah / [tia]nanmen",
+    "pronunciation": "tee-ah",
     "meaning": "sun",
     "variants": []
   },
   {
     "word": "lun",
-    "pronunciation": "loon / [lun]atic",
+    "pronunciation": "loon",
     "meaning": "light",
     "variants": []
   },
   {
     "word": "mörke",
-    "pronunciation": "mork / [more] mar[k]",
+    "pronunciation": "mork",
     "meaning": "Shop / Market",
     "variants": []
   },
   {
     "word": "gro",
-    "pronunciation": "groh / [gro]ss",
+    "pronunciation": "groh",
     "meaning": "big",
     "variants": []
   },
   {
     "word": "smi",
-    "pronunciation": "smee / [smea]r",
+    "pronunciation": "smee",
     "meaning": "small",
     "variants": [
-      {"form": "smitix", "pronunciation": "s-me-ticks", "meaning": "Constrained time / Time limit"}
+      {
+        "form": "smitix",
+        "pronunciation": "s-me-ticks",
+        "meaning": "Constrained time / Time limit"
+      }
     ]
   },
   {
     "word": "kta",
-    "pronunciation": "kta / [guita]r",
+    "pronunciation": "kta",
     "meaning": "carry / hold",
     "variants": []
   },
   {
     "word": "vas",
-    "pronunciation": "vas / [vas]t",
+    "pronunciation": "vas",
     "meaning": "sound / voice",
     "variants": []
   },
   {
     "word": "plö",
-    "pronunciation": "pla / ap[pla[use",
-    "meaning": "flying object ",
+    "pronunciation": "pla",
+    "meaning": "flying object",
     "variants": []
   },
   {
@@ -362,19 +512,19 @@
   },
   {
     "word": "enj",
-    "pronunciation": "exj / [exch]ange",
+    "pronunciation": "exj",
     "meaning": "engine / power source",
     "variants": []
   },
   {
     "word": "wolps",
-    "pronunciation": "walps / [wall] [p]re[s]ent",
+    "pronunciation": "walps",
     "meaning": "wing",
     "variants": []
   },
   {
     "word": "alt",
-    "pronunciation": "alt / [alt]ernate",
+    "pronunciation": "alt",
     "meaning": "height / altitude",
     "variants": []
   },
@@ -386,25 +536,25 @@
   },
   {
     "word": "löt",
-    "pronunciation": "lowt / [lo]ane[d]",
+    "pronunciation": "lowt",
     "meaning": "transport",
     "variants": []
   },
   {
     "word": "turb",
-    "pronunciation": "turb / [turb]ine",
+    "pronunciation": "turb",
     "meaning": "turbulence/unstable/shaking",
     "variants": []
   },
   {
     "word": "tor",
-    "pronunciation": "tor / [tor]toise",
+    "pronunciation": "tor",
     "meaning": "rock / stone",
     "variants": []
   },
   {
     "word": "plonkadonk",
-    "pronunciation": "[plonk a] [donk]ey",
+    "pronunciation": "plonk a donk",
     "meaning": "A person doomed to hell who gets buried in feces, toenails and pet litter.",
     "variants": []
   },
@@ -416,25 +566,25 @@
   },
   {
     "word": "kös",
-    "pronunciation": "coes / [coas]t",
+    "pronunciation": "coes",
     "meaning": "hot / heated",
     "variants": []
   },
   {
     "word": "ßoox",
-    "pronunciation": "shoocks / [shoe] sho[cks]",
+    "pronunciation": "shoocks",
     "meaning": "river / waterbody",
     "variants": []
   },
   {
     "word": "xum",
-    "pronunciation": "k zoom / lo[ck] [zoom]",
+    "pronunciation": "k zoom",
     "meaning": "companion / friend",
     "variants": []
   },
   {
     "word": "kixu",
-    "pronunciation": "kiks-oo / [kicks] wh[o]",
+    "pronunciation": "kiks-oo",
     "meaning": "day / daytime",
     "variants": []
   },
@@ -443,32 +593,75 @@
     "pronunciation": "cult",
     "meaning": "colour",
     "variants": [
-      {"form": "pul", "pronunciation": "pull", "meaning": "black"},
-      {"form": "map", "pronunciation": "map", "meaning": "white"},
-      {"form": "cor", "pronunciation": "core", "meaning": "Red"},
-      {"form": "mör", "pronunciation": "more", "meaning": "Blue"},
-      {"form": "uni", "pronunciation": "[Un]iversity [E]vent", "meaning": "Yellow"},
-      {"form": "mamim", "pronunciation": "[ma'am] est[eem]ed", "meaning": "Orange"},
-      {"form": "ßen", "pronunciation": "Shen / [Shen]zhen", "meaning": "Pink"},
-      {"form": "buß", "pronunciation": "bush", "meaning": "Purple"},
-      {"form": "dir", "pronunciation": "Deer", "meaning": "Brown"}
+      {
+        "form": "pul",
+        "pronunciation": "pull",
+        "meaning": "black"
+      },
+      {
+        "form": "map",
+        "pronunciation": "map",
+        "meaning": "white"
+      },
+      {
+        "form": "cor",
+        "pronunciation": "core",
+        "meaning": "Red"
+      },
+      {
+        "form": "mör",
+        "pronunciation": "more",
+        "meaning": "Blue"
+      },
+      {
+        "form": "uni",
+        "pronunciation": "unee",
+        "meaning": "Yellow"
+      },
+      {
+        "form": "mamim",
+        "pronunciation": "ma'am esteeme",
+        "meaning": "Orange"
+      },
+      {
+        "form": "ßen",
+        "pronunciation": "shen",
+        "meaning": "Pink"
+      },
+      {
+        "form": "buß",
+        "pronunciation": "bush",
+        "meaning": "Purple"
+      },
+      {
+        "form": "dir",
+        "pronunciation": "deer",
+        "meaning": "Brown"
+      }
     ]
   },
-[
   {
     "word": "lup",
     "pronunciation": "loop",
     "meaning": "open / unlock",
     "variants": [
-      {"form": "lupx", "pronunciation": "loop-cks", "meaning": "opening / unlocking in progress"}
+      {
+        "form": "lupx",
+        "pronunciation": "loop-cks",
+        "meaning": "opening / unlocking in progress"
+      }
     ]
   },
   {
     "word": "dex",
-    "pronunciation": "dex / [dex]ter",
+    "pronunciation": "dex",
     "meaning": "close / seal",
     "variants": [
-      {"form": "dexo", "pronunciation": "dex-oh", "meaning": "closed / sealed"}
+      {
+        "form": "dexo",
+        "pronunciation": "dex-oh",
+        "meaning": "closed / sealed"
+      }
     ]
   },
   {
@@ -476,23 +669,35 @@
     "pronunciation": "foe",
     "meaning": "edge / border",
     "variants": [
-      {"form": "fok", "pronunciation": "foke", "meaning": "boundary line"}
+      {
+        "form": "fok",
+        "pronunciation": "foke",
+        "meaning": "boundary line"
+      }
     ]
   },
   {
     "word": "lixo",
-    "pronunciation": "lix-oh / [licks] [oh]",
+    "pronunciation": "lix-oh",
     "meaning": "energy / strength",
     "variants": [
-      {"form": "lixu", "pronunciation": "licks-oo", "meaning": "high energy / strong output"}
+      {
+        "form": "lixu",
+        "pronunciation": "licks-oo",
+        "meaning": "high energy / strong output"
+      }
     ]
   },
   {
     "word": "tiv",
-    "pronunciation": "tiv / [tiv] 2",
+    "pronunciation": "tiv",
     "meaning": "weak / exhausted",
     "variants": [
-      {"form": "tivix", "pronunciation": "tiv-icks", "meaning": "weakening / losing strength"}
+      {
+        "form": "tivix",
+        "pronunciation": "tiv-icks",
+        "meaning": "weakening / losing strength"
+      }
     ]
   },
   {
@@ -500,23 +705,35 @@
     "pronunciation": "mask",
     "meaning": "tool / handheld device",
     "variants": [
-      {"form": "mesko", "pronunciation": "mesk-oh", "meaning": "tool collection / toolbox"}
+      {
+        "form": "mesko",
+        "pronunciation": "mesk-oh",
+        "meaning": "tool collection / toolbox"
+      }
     ]
   },
   {
     "word": "paf",
-    "pronunciation": "paff / [baff]led",
+    "pronunciation": "paff",
     "meaning": "pull",
     "variants": [
-      {"form": "pafu", "pronunciation": "paff-oo", "meaning": "will pull"}
+      {
+        "form": "pafu",
+        "pronunciation": "paff-oo",
+        "meaning": "will pull"
+      }
     ]
   },
   {
     "word": "dod",
-    "pronunciation": "dodd / [todd]ler",
+    "pronunciation": "dodd",
     "meaning": "push",
     "variants": [
-      {"form": "doda", "pronunciation": "dodd-ah", "meaning": "pushed"}
+      {
+        "form": "doda",
+        "pronunciation": "dodd-ah",
+        "meaning": "pushed"
+      }
     ]
   },
   {
@@ -524,23 +741,35 @@
     "pronunciation": "rim",
     "meaning": "memory / recollection",
     "variants": [
-      {"form": "rimo", "pronunciation": "rim-oh", "meaning": "remember / recall (verb)"}
+      {
+        "form": "rimo",
+        "pronunciation": "rim-oh",
+        "meaning": "remember / recall (verb)"
+      }
     ]
   },
   {
     "word": "zun",
-    "pronunciation": "zun / [z] j[un[gle",
+    "pronunciation": "zun",
     "meaning": "forget",
     "variants": [
-      {"form": "zuno", "pronunciation": "zun-oh", "meaning": "forgotten"}
+      {
+        "form": "zuno",
+        "pronunciation": "zun-oh",
+        "meaning": "forgotten"
+      }
     ]
   },
   {
     "word": "ske",
-    "pronunciation": "skeh / [ske]ptical",
+    "pronunciation": "skeh",
     "meaning": "sand",
     "variants": [
-      {"form": "sket", "pronunciation": "sket", "meaning": "grain / grain piece"}
+      {
+        "form": "sket",
+        "pronunciation": "sket",
+        "meaning": "grain / grain piece"
+      }
     ]
   },
   {
@@ -548,18 +777,22 @@
     "pronunciation": "stocks",
     "meaning": "metal",
     "variants": [
-      {"form": "stoku", "pronunciation": "stoke-oo", "meaning": "metal working"}
+      {
+        "form": "stoku",
+        "pronunciation": "stoke-oo",
+        "meaning": "metal working"
+      }
     ]
   },
   {
     "word": "gen",
-    "pronunciation": "gen / [gen]tle",
+    "pronunciation": "gen",
     "meaning": "plastic / synthetic material",
     "variants": []
   },
   {
     "word": "lupet",
-    "pronunciation": "loop-et / loop it",
+    "pronunciation": "loop-et",
     "meaning": "organic material / biodegradable",
     "variants": []
   },
@@ -568,7 +801,11 @@
     "pronunciation": "vonk",
     "meaning": "electricity",
     "variants": [
-      {"form": "vonkx", "pronunciation": "vonk-ks", "meaning": "electrical system"}
+      {
+        "form": "vonkx",
+        "pronunciation": "vonk-ks",
+        "meaning": "electrical system"
+      }
     ]
   },
   {
@@ -576,7 +813,11 @@
     "pronunciation": "pind",
     "meaning": "ceiling",
     "variants": [
-      {"form": "pindo", "pronunciation": "pind-oh", "meaning": "upper surface / roof"}
+      {
+        "form": "pindo",
+        "pronunciation": "pind-oh",
+        "meaning": "upper surface / roof"
+      }
     ]
   },
   {
@@ -584,16 +825,28 @@
     "pronunciation": "durr",
     "meaning": "floor / ground surface",
     "variants": [
-      {"form": "duri", "pronunciation": "durr-ee", "meaning": "lower platform / ground level"}
+      {
+        "form": "duri",
+        "pronunciation": "durr-ee",
+        "meaning": "lower platform / ground level"
+      }
     ]
   },
   {
     "word": "trux",
-    "pronunciation": "tru[ck]s",
+    "pronunciation": "trucks",
     "meaning": "vehicle",
     "variants": [
-      {"form": "truxa", "pronunciation": "trucks-ah", "meaning": "vehicle fleet / multiple vehicles"},
-      {"form": "truxu", "pronunciation": "trucks-oo", "meaning": "moving / traveling vehicle"}
+      {
+        "form": "truxa",
+        "pronunciation": "trucks-ah",
+        "meaning": "vehicle fleet / multiple vehicles"
+      },
+      {
+        "form": "truxu",
+        "pronunciation": "trucks-oo",
+        "meaning": "moving / traveling vehicle"
+      }
     ]
   },
   {
@@ -601,23 +854,35 @@
     "pronunciation": "vell-oh",
     "meaning": "road / highway",
     "variants": [
-      {"form": "velom", "pronunciation": "vell-om", "meaning": "network of roads"}
+      {
+        "form": "velom",
+        "pronunciation": "vell-om",
+        "meaning": "network of roads"
+      }
     ]
   },
   {
     "word": "otoo",
-    "pronunciation": "otu / [oh] [too]th",
+    "pronunciation": "otu",
     "meaning": "tree",
     "variants": [
-      {"form": "otumo", "pronunciation": "oh too mow", "meaning": "forest"}
+      {
+        "form": "otumo",
+        "pronunciation": "oh too mow",
+        "meaning": "forest"
+      }
     ]
   },
   {
     "word": "sil",
-    "pronunciation": "sill / window[sill]",
+    "pronunciation": "sill",
     "meaning": "riverbank / shoreline",
     "variants": [
-      {"form": "silan", "pronunciation": "sill-an", "meaning": "coast"}
+      {
+        "form": "silan",
+        "pronunciation": "sill-an",
+        "meaning": "coast"
+      }
     ]
   },
   {
@@ -625,8 +890,16 @@
     "pronunciation": "kid",
     "meaning": "field / open space",
     "variants": [
-      {"form": "kido", "pronunciation": "kid-oh", "meaning": "prairie / grassland"},
-      {"form": "kidex", "pronunciation": "kid-eks", "meaning": "arena / playing field"}
+      {
+        "form": "kido",
+        "pronunciation": "kid-oh",
+        "meaning": "prairie / grassland"
+      },
+      {
+        "form": "kidex",
+        "pronunciation": "kid-eks",
+        "meaning": "arena / playing field"
+      }
     ]
   },
   {
@@ -634,16 +907,28 @@
     "pronunciation": "woe",
     "meaning": "money / currency",
     "variants": [
-      {"form": "woku", "pronunciation": "woe-koo", "meaning": "payment / transaction"},
-      {"form": "womo", "pronunciation": "woe-moe", "meaning": "debt / owing"}
+      {
+        "form": "woku",
+        "pronunciation": "woe-koo",
+        "meaning": "payment / transaction"
+      },
+      {
+        "form": "womo",
+        "pronunciation": "woe-moe",
+        "meaning": "debt / owing"
+      }
     ]
   },
   {
     "word": "sus",
-    "pronunciation": "sus / [sus]picious",
+    "pronunciation": "sus",
     "meaning": "idea / thought",
     "variants": [
-      {"form": "susi", "pronunciation": "suss-ee", "meaning": "thinking / brainstorming"}
+      {
+        "form": "susi",
+        "pronunciation": "suss-ee",
+        "meaning": "thinking / brainstorming"
+      }
     ]
   },
   {
@@ -651,92 +936,110 @@
     "pronunciation": "pim",
     "meaning": "decision / choice",
     "variants": [
-      {"form": "pimo", "pronunciation": "pim-oh", "meaning": "final decision"},
-      {"form": "pimik", "pronunciation": "pim-ick", "meaning": "undecided / pending"}
+      {
+        "form": "pima",
+        "pronunciation": "pim-ah",
+        "meaning": "final decision"
+      },
+      {
+        "form": "pimik",
+        "pronunciation": "pim-ick",
+        "meaning": "undecided / pending"
+      }
     ]
   },
   {
     "word": "jot",
     "pronunciation": "jot",
     "meaning": "write / note",
-    "variants": [
-    ]
+    "variants": []
   },
   {
     "word": "vax",
     "pronunciation": "vacks",
     "meaning": "map / chart",
     "variants": [
-      {"form": "vaxo", "pronunciation": "vacks-oh", "meaning": "navigation"}
+      {
+        "form": "vaxo",
+        "pronunciation": "vacks-oh",
+        "meaning": "navigation"
+      }
     ]
   },
   {
     "word": "gret",
     "pronunciation": "gret",
     "meaning": "learn",
-    "variants": [
-    ]
+    "variants": []
   },
   {
     "word": "sux",
     "pronunciation": "sooks",
     "meaning": "teach / instruct",
     "variants": [
-      {"form": "suxi", "pronunciation": "sooks-ee", "meaning": "teaching / instructing"},
-      {"form": "suxo", "pronunciation": "sooks-oh", "meaning": "taught"}
+      {
+        "form": "suxi",
+        "pronunciation": "sooks-ee",
+        "meaning": "teaching / instructing"
+      },
+      {
+        "form": "suxo",
+        "pronunciation": "sooks-oh",
+        "meaning": "taught"
+      }
     ]
   },
   {
     "word": "pööks",
-    "pronunciation": "pokes / [poke]r",
+    "pronunciation": "pokes",
     "meaning": "happy / joy",
     "variants": []
   },
   {
     "word": "ßuß",
-    "pronunciation": "shoosh / [shoe] [sh]oe",
+    "pronunciation": "shoosh",
     "meaning": "sad / sorrow",
     "variants": []
   },
   {
     "word": "tuxö",
-    "pronunciation": "tooks-oe / [tooks] [o]at",
+    "pronunciation": "tooks-oe",
     "meaning": "angry / frustration",
     "variants": []
   },
   {
     "word": "ßept",
-    "pronunciation": "shaep-t / shaped",
+    "pronunciation": "shaep-t",
     "meaning": "afraid / fear",
     "variants": []
   },
   {
     "word": "vasö",
-    "pronunciation": "vas-oe / [vas]t [o]at",
+    "pronunciation": "vas-oe",
     "meaning": "love / affection",
     "variants": []
   },
   {
     "word": "sup",
-    "pronunciation": "suhp / soup",
+    "pronunciation": "suhp",
     "meaning": "surprised / shock",
     "variants": []
   },
   {
     "word": "löca",
-    "pronunciation": "[loca]l",
+    "pronunciation": "loca",
     "meaning": "crazy / insane",
     "variants": []
   },
   {
     "word": "læne",
-    "pronunciation": "lan / [lan]d",
+    "pronunciation": "lan",
     "meaning": "calm / peaceful",
     "variants": []
   },
   {
     "word": "öxa",
-    "pronunciation": "oe-xa / [oak] [sa]w",
+    "pronunciation": "oe-xa",
     "meaning": "disgust / dislike",
     "variants": []
   },
@@ -748,7 +1051,7 @@
   },
   {
     "word": "uxi",
-    "pronunciation": "oo-xee / s[u]per [see]",
+    "pronunciation": "oo-xee",
     "meaning": "pride / confident",
     "variants": []
   }
