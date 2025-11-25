@@ -162,7 +162,11 @@
     "word": "ßak",
     "pronunciation": "shack / [Shaq]uille o' neal",
     "meaning": "move / go",
-    "variants": []
+    "variants": [
+            {"form": "ßap", "pronunciation": "[sha]r[p]", "meaning": "Leaving / Departing"},
+      {"form": "tapu", "pronunciation": "tap-oo", "meaning": "will eat / future"},
+      {"form": "tapix", "pronunciation": "tap-icks", "meaning": "eating / progressive"}
+    ]
   },
   {
     "word": "sax",
@@ -390,6 +394,11 @@
     "word": "turb",
     "pronunciation": "turb / [turb]ine",
     "meaning": "turbulence/unstable/shaking",
+    "variants": []
+  },
+    "word": "tor",
+    "pronunciation": "tor / [tor]toise",
+    "meaning": "rock / stone",
     "variants": []
   },
   {
