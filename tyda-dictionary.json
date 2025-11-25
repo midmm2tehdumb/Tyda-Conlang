@@ -454,6 +454,238 @@
       {"form": "dir", "pronunciation": "Deer", "meaning": "Brown"}
     ]
   },
+[
+  {
+    "word": "lup",
+    "pronunciation": "loop",
+    "meaning": "open / unlock",
+    "variants": [
+      {"form": "lupx", "pronunciation": "loop-cks", "meaning": "opening / unlocking in progress"}
+    ]
+  },
+  {
+    "word": "dex",
+    "pronunciation": "dex / [dex]ter",
+    "meaning": "close / seal",
+    "variants": [
+      {"form": "dexo", "pronunciation": "dex-oh", "meaning": "closed / sealed"}
+    ]
+  },
+  {
+    "word": "fo",
+    "pronunciation": "foe",
+    "meaning": "edge / border",
+    "variants": [
+      {"form": "fok", "pronunciation": "foke", "meaning": "boundary line"}
+    ]
+  },
+  {
+    "word": "lixo",
+    "pronunciation": "lix-oh / [licks] [oh]",
+    "meaning": "energy / strength",
+    "variants": [
+      {"form": "lixu", "pronunciation": "licks-oo", "meaning": "high energy / strong output"}
+    ]
+  },
+  {
+    "word": "tiv",
+    "pronunciation": "tiv / [tiv] 2",
+    "meaning": "weak / exhausted",
+    "variants": [
+      {"form": "tivix", "pronunciation": "tiv-icks", "meaning": "weakening / losing strength"}
+    ]
+  },
+  {
+    "word": "mask",
+    "pronunciation": "mask",
+    "meaning": "tool / handheld device",
+    "variants": [
+      {"form": "mesko", "pronunciation": "mesk-oh", "meaning": "tool collection / toolbox"}
+    ]
+  },
+  {
+    "word": "paf",
+    "pronunciation": "paff / [baff]led",
+    "meaning": "pull",
+    "variants": [
+      {"form": "pafu", "pronunciation": "paff-oo", "meaning": "will pull"}
+    ]
+  },
+  {
+    "word": "dod",
+    "pronunciation": "dodd / [todd]ler",
+    "meaning": "push",
+    "variants": [
+      {"form": "doda", "pronunciation": "dodd-ah", "meaning": "pushed"}
+    ]
+  },
+  {
+    "word": "rim",
+    "pronunciation": "rim",
+    "meaning": "memory / recollection",
+    "variants": [
+      {"form": "rimo", "pronunciation": "rim-oh", "meaning": "remember / recall (verb)"}
+    ]
+  },
+  {
+    "word": "zun",
+    "pronunciation": "zun / [z] j[un[gle",
+    "meaning": "forget",
+    "variants": [
+      {"form": "zuno", "pronunciation": "zun-oh", "meaning": "forgotten"}
+    ]
+  },
+  {
+    "word": "ske",
+    "pronunciation": "skeh / [ske]ptical",
+    "meaning": "sand",
+    "variants": [
+      {"form": "sket", "pronunciation": "sket", "meaning": "grain / grain piece"}
+    ]
+  },
+  {
+    "word": "stox",
+    "pronunciation": "stocks",
+    "meaning": "metal",
+    "variants": [
+      {"form": "stoku", "pronunciation": "stoke-oo", "meaning": "metal working"}
+    ]
+  },
+  {
+    "word": "gen",
+    "pronunciation": "gen / [gen]tle",
+    "meaning": "plastic / synthetic material",
+    "variants": []
+  },
+  {
+    "word": "lupet",
+    "pronunciation": "loop-et / loop it",
+    "meaning": "organic material / biodegradable",
+    "variants": []
+  },
+  {
+    "word": "vonk",
+    "pronunciation": "vonk",
+    "meaning": "electricity",
+    "variants": [
+      {"form": "vonkx", "pronunciation": "vonk-ks", "meaning": "electrical system"}
+    ]
+  },
+  {
+    "word": "pind",
+    "pronunciation": "pind",
+    "meaning": "ceiling",
+    "variants": [
+      {"form": "pindo", "pronunciation": "pind-oh", "meaning": "upper surface / roof"}
+    ]
+  },
+  {
+    "word": "dur",
+    "pronunciation": "durr",
+    "meaning": "floor / ground surface",
+    "variants": [
+      {"form": "duri", "pronunciation": "durr-ee", "meaning": "lower platform / ground level"}
+    ]
+  },
+  {
+    "word": "trux",
+    "pronunciation": "tru[ck]s",
+    "meaning": "vehicle",
+    "variants": [
+      {"form": "truxa", "pronunciation": "trucks-ah", "meaning": "vehicle fleet / multiple vehicles"},
+      {"form": "truxu", "pronunciation": "trucks-oo", "meaning": "moving / traveling vehicle"}
+    ]
+  },
+  {
+    "word": "velo",
+    "pronunciation": "vell-oh",
+    "meaning": "road / highway",
+    "variants": [
+      {"form": "velom", "pronunciation": "vell-om", "meaning": "network of roads"}
+    ]
+  },
+  {
+    "word": "otoo",
+    "pronunciation": "otu / [oh] [too]th",
+    "meaning": "tree",
+    "variants": [
+      {"form": "otumo", "pronunciation": "oh too mow", "meaning": "forest"}
+    ]
+  },
+  {
+    "word": "sil",
+    "pronunciation": "sill / window[sill]",
+    "meaning": "riverbank / shoreline",
+    "variants": [
+      {"form": "silan", "pronunciation": "sill-an", "meaning": "coast"}
+    ]
+  },
+  {
+    "word": "kid",
+    "pronunciation": "kid",
+    "meaning": "field / open space",
+    "variants": [
+      {"form": "kido", "pronunciation": "kid-oh", "meaning": "prairie / grassland"},
+      {"form": "kidex", "pronunciation": "kid-eks", "meaning": "arena / playing field"}
+    ]
+  },
+  {
+    "word": "wo",
+    "pronunciation": "woe",
+    "meaning": "money / currency",
+    "variants": [
+      {"form": "woku", "pronunciation": "woe-koo", "meaning": "payment / transaction"},
+      {"form": "womo", "pronunciation": "woe-moe", "meaning": "debt / owing"}
+    ]
+  },
+  {
+    "word": "sus",
+    "pronunciation": "sus / [sus]picious",
+    "meaning": "idea / thought",
+    "variants": [
+      {"form": "susi", "pronunciation": "suss-ee", "meaning": "thinking / brainstorming"}
+    ]
+  },
+  {
+    "word": "pim",
+    "pronunciation": "pim",
+    "meaning": "decision / choice",
+    "variants": [
+      {"form": "pimo", "pronunciation": "pim-oh", "meaning": "final decision"},
+      {"form": "pimik", "pronunciation": "pim-ick", "meaning": "undecided / pending"}
+    ]
+  },
+  {
+    "word": "jot",
+    "pronunciation": "jot",
+    "meaning": "write / note",
+    "variants": [
+    ]
+  },
+  {
+    "word": "vax",
+    "pronunciation": "vacks",
+    "meaning": "map / chart",
+    "variants": [
+      {"form": "vaxo", "pronunciation": "vacks-oh", "meaning": "navigation"}
+    ]
+  },
+  {
+    "word": "gret",
+    "pronunciation": "gret",
+    "meaning": "learn",
+    "variants": [
+    ]
+  },
+  {
+    "word": "sux",
+    "pronunciation": "sooks",
+    "meaning": "teach / instruct",
+    "variants": [
+      {"form": "suxi", "pronunciation": "sooks-ee", "meaning": "teaching / instructing"},
+      {"form": "suxo", "pronunciation": "sooks-oh", "meaning": "taught"}
+    ]
+  },
   {
     "word": "pööks",
     "pronunciation": "pokes / [poke]r",
